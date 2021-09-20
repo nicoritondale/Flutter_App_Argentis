@@ -33,7 +33,7 @@ class HomePageTemp extends StatelessWidget {
           ListTile(
             title: Text(item + '!'),
             subtitle: Text('Components'),
-            // El encargado de poner icono o otra cosa a la izquierda
+            // El encargado de poner icono o otra cosa aa la izquierda
             leading: Icon(Icons.account_balance_wallet),
             // Y este a la derecha
             trailing: Icon(Icons.keyboard_arrow_right),
