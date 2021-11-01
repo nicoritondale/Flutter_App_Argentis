@@ -3,7 +3,6 @@ import 'package:flutter/material.dart';
 // Lo mio
 import 'package:flutter_project_1/src/providers/menu_provider.dart';
 import 'package:flutter_project_1/src/utils/icono_string_util.dart';
-import 'package:flutter_project_1/src/pages/alert_page.dart';
 
 class HomePage extends StatelessWidget {
   @override
@@ -38,9 +37,6 @@ class HomePage extends StatelessWidget {
         trailing: Icon(Icons.keyboard_arrow_right),
         onTap: () {
           Navigator.pushNamed(context, opt['ruta']);
-          // final route = MaterialPageRoute(
-          //   builder: (context) => AlertPage());
-          // Navigator.push(context, route);
         },
       );
 
